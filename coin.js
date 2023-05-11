@@ -98,7 +98,7 @@ function nextCoin(){
         current_round = 0
         swal({
             title: "Thanks for playing!",
-            text: "Your score is: " + Math.min(score, 25000) + ".",
+            text: "Your score is: " + Math.min(score, 50000) + ".",
 	    button: "Play again"
         });
         score = 0;
